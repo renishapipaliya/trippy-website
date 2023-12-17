@@ -1,18 +1,20 @@
-    import Hero from "../component/Hero";
-    import Navbar from "../component/Navbar";
-    function Contact() {
-      return (
-        <>
-          <Navbar />
-          <Hero
-            cName="hero-mid"
-            heroImg="/assets/night.jpg"
-            title="Contact"
-            btnClass="hide"
-          />
-        </>
-      );
-    }
-    export default Contact;
-
-
+import Hero from "../component/Hero";
+import Navbar from "../component/Navbar";
+import Footer from "../component/Footer";
+import ContactForm from "../component/ContactForm";
+function Contact() {
+  return (
+    <>
+      <Navbar />
+      <Hero
+        cName="hero-mid"
+        heroImg="/assets/night.jpg"
+        title="Contact"
+        btnClass="hide"
+      />
+      <ContactForm />
+      <Footer />
+    </>
+  );
+}
+export default Contact;

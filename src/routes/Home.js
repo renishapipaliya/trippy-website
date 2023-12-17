@@ -1,6 +1,8 @@
 import Destination from "../component/Destination";
+import Footer from "../component/Footer";
 import Hero from "../component/Hero";
 import Navbar from "../component/Navbar";
+import Trip from "../component/Trip";
 function Home() {
   return (
     <>
@@ -14,8 +16,10 @@ function Home() {
         url="/"
         btnClass="show"
       />
-      <Destination/>
+      <Destination />
+      <Trip />
+      <Footer />
     </>
-  )
+  );
 }
 export default Home;

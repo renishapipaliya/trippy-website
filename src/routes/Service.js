@@ -1,5 +1,6 @@
 import Hero from "../component/Hero";
 import Navbar from "../component/Navbar";
+import Footer from "../component/Footer";
 function Service() {
   return (
     <>
@@ -10,6 +11,7 @@ function Service() {
         title="Service"
         btnClass="hide"
       />
+      <Footer />
     </>
   );
 }
