@@ -11,6 +11,7 @@ function About() {
         heroImg="/assets/night.jpg"
         title="About"
         btnClass="hide"
+        url="/"
       />
       <AboutUs/>
       <Footer />

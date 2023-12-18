@@ -1,6 +1,6 @@
 import "./ContactFormStyles.css"
 
-function ContactForm(){
+function ContactForm () {
     return (
       <div className="from-container">
         <h1>Send a message to us!</h1>
@@ -12,6 +12,6 @@ function ContactForm(){
           <button>Send Message</button>
         </form>
       </div>
-    );
+    )
 }
 export default ContactForm

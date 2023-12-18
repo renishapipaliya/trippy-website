@@ -10,6 +10,7 @@ function Service() {
         heroImg="/assets/night.jpg"
         title="Service"
         btnClass="hide"
+        url="/"
       />
       <Footer />
     </>
